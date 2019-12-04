@@ -1,0 +1,34 @@
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #727cf5;
+    border-color: #727cf5;
+}
+.page-link:not(:disabled):not(.disabled) {
+    cursor: pointer;}
+.pagination-rounded .page-link {
+    border-radius: 30px!important;
+    margin: 0 3px;
+    border: none;}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #313a46;
+    background-color: #fff;
+    border: 1px solid #dee2e6;}
+a, button {
+    outline: 0!important;
+}
+a {
+    color: #727cf5;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
